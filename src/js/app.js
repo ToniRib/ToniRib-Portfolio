@@ -17,10 +17,10 @@ $(function() {
 
 // hover effect for portfolio boxes
 $('.box').on({
-   mouseenter: function() {
-       $('.portfolio-text').show()
-   },
-   mouseleave: function() {
-       $('.portfolio-text').hide()
-   }
+  mouseenter: function() {
+    $('#' + $(this).attr('id') + '-text').show()
+  },
+  mouseleave: function() {
+    $('#' + $(this).attr('id') + '-text').hide()
+  }
 });
