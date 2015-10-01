@@ -98,7 +98,7 @@ p {
 }
 
 .coding-img {
-	padding-top: 40px;
+	padding-top: 55px;
 }
 
 .left-title {
@@ -155,13 +155,28 @@ li {
 	font-size: 20px;
 }
 
+@media (max-width: 1200px) {
+	.coding-img {
+		margin-top: -20px;
+	}
+
+	.right-arrow {
+		margin-top: 110px;
+	}
+}
+
 @media (max-width: 992px) {
-/*  .image-container {
-    display: none;
-  }*/
   .rocket-img,
   .coding-img {
   	height: 150px;
+  }
+
+  .coding-img {
+  	margin-top: -30px;
+  }
+
+  .right-arrow {
+  	margin-top: 80px;
   }
 }
 
