@@ -110,8 +110,9 @@ p {
 }
 
 ul {
-	white-space: nowrap;
+	/*white-space: nowrap;*/
 	margin: 4em;
+	text-align: center;
 }
 
 li {
@@ -119,7 +120,7 @@ li {
 	text-decoration: none;
 	display: inline;
 	font-size: 30px;
-	padding: 1.5em;
+	padding: 20px;
 }
 
 .center {
@@ -154,3 +155,19 @@ li {
 	font-size: 20px;
 }
 
+@media (max-width: 992px) {
+/*  .image-container {
+    display: none;
+  }*/
+  .rocket-img,
+  .coding-img {
+  	height: 150px;
+  }
+}
+
+@media (max-width: 786px) {
+	li {
+		display: block;
+		padding: 10px;
+	}
+}
