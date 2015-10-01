@@ -110,6 +110,16 @@ p {
 	text-align: right;
 }
 
-.portfolio-item {
+ul {
+	white-space: nowrap;
+	/*text-align: center;*/
+	margin: 4em;
+}
 
+li {
+	color: #ffea1d;
+	text-decoration: none;
+	display: inline;
+	font-size: 30px;
+	padding: 1.5em;
 }
