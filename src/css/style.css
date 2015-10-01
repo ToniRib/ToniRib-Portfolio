@@ -65,7 +65,6 @@ p {
 
 .rocket-img {
 	width: 100%;
-	/*max-width: 100px;*/
 }
 
 .right-arrow {
@@ -122,4 +121,8 @@ li {
 	display: inline;
 	font-size: 30px;
 	padding: 1.5em;
+}
+
+.center {
+	text-align: center;
 }
