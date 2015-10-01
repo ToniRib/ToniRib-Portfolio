@@ -111,7 +111,6 @@ p {
 
 ul {
 	white-space: nowrap;
-	/*text-align: center;*/
 	margin: 4em;
 }
 
@@ -126,3 +125,25 @@ li {
 .center {
 	text-align: center;
 }
+
+.box {
+	background: #b21752;
+	width: 250px;
+	height: 250px;
+	margin: auto;
+}
+
+.box:hover {
+    opacity: 0.5;
+}
+
+.portfolio-text {
+	font-size: 30px;
+	color: white;
+	position: absolute;
+	margin-top: 100px;
+	margin-left: 10px;
+	text-align: center;
+	display: none;
+}
+

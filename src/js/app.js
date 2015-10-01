@@ -14,3 +14,12 @@ $(function() {
     }
   });
 });
+
+$('.box').on({
+   mouseenter: function() {
+       $('.portfolio-text').show()
+   },
+   mouseleave: function() {
+       $('.portfolio-text').hide()
+   }
+});
