@@ -1,14 +1,3 @@
-// nav link color fade
-$(document).ready(function() {
-	$('a').mouseenter(function() {
-		$(this).fadeTo('fast', 0.5);
-	});
-
-	$('a').mouseleave(function() {
-		$(this).fadeTo('fast', 1);
-	});
-});
-
 // smooth scrolling to anchors
 // Credit to Chris Coyier: https://css-tricks.com/snippets/jquery/smooth-scrolling/
 $(function() {
