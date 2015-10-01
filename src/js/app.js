@@ -15,6 +15,7 @@ $(function() {
   });
 });
 
+// hover effect for portfolio boxes
 $('.box').on({
    mouseenter: function() {
        $('.portfolio-text').show()
