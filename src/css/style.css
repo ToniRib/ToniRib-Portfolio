@@ -32,9 +32,18 @@ a:hover {
 	color: #00e5ff;
 }
 
+.contact-link {
+	margin: 0 2em;
+	font-size: 18px;
+}
+
+.contacts {
+	text-align: center;
+	padding-bottom: 70px;
+}
+
 .main-img {
 	margin-top: 1em;
-	/*max-height: 500px;*/
 }
 
 h1,
