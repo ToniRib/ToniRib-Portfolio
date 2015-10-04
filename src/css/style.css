@@ -22,6 +22,11 @@ nav {
 	margin: 1em 0;
 }
 
+article {
+	height: 100vh;
+	margin: 50px 0;
+}
+
 a {
 	text-decoration: none;
 	color: #76ff03;
@@ -40,6 +45,7 @@ a:hover {
 .contacts {
 	text-align: center;
 	padding-bottom: 70px;
+	height: 100%;
 }
 
 .main-img {
