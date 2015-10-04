@@ -1,6 +1,4 @@
-/*
-Zocial
-*/
+/* Zocial */
 
 .zocial-twitter:before,
 .zocial-github:before,
@@ -9,6 +7,8 @@ Zocial
 	font-family: 'zocial', sans-serif;
 	margin: 5px 10px 5px 0;
 }
+
+/* Main Styles */
 
 body {
 	background-color: #000;
@@ -84,7 +84,7 @@ h4 {
 
 p {
 	color: white;
-	font-size: 20px;
+	font-size: 18px;
 }
 
 .rocket-img {
@@ -235,6 +235,7 @@ li {
 	}
 }
 
+/* Make sure sections don't overlap */
 @media (max-height: 650px) {
 	article {
 		height: 100%;
