@@ -234,3 +234,9 @@ li {
 		text-align: center;
 	}
 }
+
+@media (max-height: 650px) {
+	article {
+		height: 100%;
+	}
+}
