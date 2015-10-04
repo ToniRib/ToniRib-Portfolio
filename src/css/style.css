@@ -44,7 +44,6 @@ a:hover {
 
 .contacts {
 	text-align: center;
-	padding-bottom: 70px;
 	height: 100%;
 }
 
@@ -203,9 +202,14 @@ li {
   .right-arrow {
   	margin-top: 100px;
   }
+
+  article {
+  	height: 100%;
+  	padding: 0 10px;
+  }
 }
 
-@media (max-width: 786px) {
+@media (max-width: 767px) {
 	li {
 		display: block;
 		padding: 10px;
