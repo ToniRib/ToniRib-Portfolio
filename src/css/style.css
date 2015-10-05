@@ -39,8 +39,12 @@ a:hover {
 }
 
 .contact-link {
-  margin: 0 2em;
+  margin: 0 0.5em;
   font-size: 18px;
+}
+
+.contact-list {
+  margin: 0;
 }
 
 .contacts {
@@ -154,7 +158,6 @@ p {
 }
 
 ul {
-  /*white-space: nowrap;*/
   margin: 4em;
   text-align: center;
 }
@@ -176,10 +179,6 @@ li {
   height: 250px;
   margin: auto;
 }
-
-/*.box:hover {
-    -webkit-filter: saturate(2);
-}*/
 
 .portfolio-text {
   font-size: 30px;
