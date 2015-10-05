@@ -18,9 +18,9 @@ $(function() {
 // hover effect for portfolio boxes
 $('.box').on({
   mouseenter: function() {
-    $('#' + $(this).attr('id') + '-text').show()
+    $('#' + $(this).attr('id') + '-text').show();
   },
   mouseleave: function() {
-    $('#' + $(this).attr('id') + '-text').hide()
+    $('#' + $(this).attr('id') + '-text').hide();
   }
 });
