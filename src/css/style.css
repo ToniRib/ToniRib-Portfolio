@@ -117,6 +117,25 @@ p {
   border-left: 20px solid #b21752;
 }
 
+.arrow-up {
+  width: 0;
+  height: 0;
+  border-left: 20px solid transparent;
+  border-right: 20px solid transparent;
+  border-bottom: 20px solid #27c8cc;
+  display: inline-block;
+}
+
+.back-to-top {
+  display: inline-block;
+  color: #27c8cc;
+  margin-right: 1em;
+}
+
+.float-right {
+  float: right;
+}
+
 .turned-text {
   color: white;
   padding: 0.4em 1em;

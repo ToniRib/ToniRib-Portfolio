@@ -15,6 +15,14 @@ $(function() {
   });
 });
 
+// smooth scroll to top for 'back to top' button & arrow
+$('.smooth-scroll-top').click(function() {
+  $('html, body').animate({
+    scrollTop: 0
+  }, 1000);
+  return false;
+});
+
 // hover effect for portfolio boxes
 $('.box').on({
   mouseenter: function() {
