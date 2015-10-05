@@ -5,7 +5,7 @@
 .zocial-gmail:before,
 .zocial-linkedin:before {
   font-family: 'zocial', sans-serif;
-  margin: 5px 10px 5px 0;
+  margin: 0 0.5em 0 0;
 }
 
 /* Main Styles */
@@ -40,7 +40,7 @@ a:hover {
 
 .contact-link {
   margin: 0 0.5em;
-  font-size: 18px;
+  font-size: 0.6em;
 }
 
 .contact-list {
@@ -56,28 +56,11 @@ a:hover {
   margin-top: 1em;
 }
 
-h1,
-h3 {
-  text-align: center;
-  margin: 0;
-}
-
-h1 {
-  font-size: 10em;
-  color: #26ff63;
-  margin-top: 1.5em;
-}
-
 h2 {
   font-style: italic;
   font-size: 5em;
   color: #27c8cc;
   margin: 0 0 0.5em 0;
-}
-
-h3 {
-  font-size: 3em;
-  color: white;
 }
 
 h4 {
@@ -213,10 +196,6 @@ li {
   .rocket-img,
   .coding-img {
     height: 150px;
-  }
-
-  .coding-img {
-    /*margin-top: -20%;*/
   }
 
   .right-arrow {
