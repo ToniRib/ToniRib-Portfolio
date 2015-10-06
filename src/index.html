@@ -119,7 +119,7 @@
 
         <!-- Udacity Project 4: Web Optimization -->
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <a href="http://tonirib.github.io/frontend-nanodegree-mobile-portfolio/dist/">
+          <a data-toggle="modal" data-target="#web-optimization-modal">
             <div class="box" id="web-optimization">
               <span class="portfolio-text" id="web-optimization-text">Udacity Project 4:<br>Web Optimization</span>
               <img class="portfolio-image" src="img/udacity-web-optimization.svg" alt="pizza">
@@ -129,7 +129,7 @@
 
         <!-- Udacity Project 5: Neighborhood Map -->
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <a href="http://tonirib.github.io/neighborhood-map/dist/">
+          <a data-toggle="modal" data-target="#brewery-map-modal">
             <div class="box" id="neighborhood-map">
               <span class="portfolio-text" id="neighborhood-map-text">Udacity Project 5:<br>Brewery Map</span>
               <img class="portfolio-image" src="img/udacity-brewery-map.svg" alt="map marker">
@@ -139,7 +139,7 @@
 
         <!-- Udacity Project 6: TDD -->
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <a href="http://tonirib.github.io/frontend-nanodegree-feedreader/">
+          <a data-toggle="modal" data-target="#feedreader-modal">
             <div class="box" id="tdd-feedreader">
               <span class="portfolio-text" id="tdd-feedreader-text">Udacity Project 6:<br>TDD Feedreader</span>
               <img class="portfolio-image" src="img/udacity-tdd-feedreader.svg" alt="red green refactor image">
@@ -239,6 +239,84 @@
             <div class="row center">
               <a href="http://tonirib.github.io/frontend-nanodegree-arcade-game" class="modal-link">View Project</a>
               <a href="http://github.com/ToniRib/frontend-nanodegree-arcade-game/" class="modal-link">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer row">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Web Optimization Modal -->
+  <div class="modal fade" id="web-optimization-modal" tabindex="-1" role="dialog" aria-labelledby="web-optimization-modal-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="web-optimization-modal-label">Udacity Project 4: Web Optimization</h4>
+        </div>
+        <div class="modal-body row">
+          <div class="col-sm-4">
+            <img class="portfolio-image max-height" src="img/udacity-web-optimization.svg" alt="Girl in Cat Hat Image">
+          </div>
+          <div class="col-sm-8">
+            <p>This project was provided by Udacity with specific performance-related bugs that needed to be fixed. The main page needed to achieve a score of at least 90 for both mobile and desktop on Google's PageSpeed Insights. Additionally, on the Cam's Pizzeria page, the goal was to optimize the critcal rendering path to make the main page render as quickly as possible when scrolling. I modified the JavaScript and used Grunt to create a workflow to inline the CSS, minify the files, optimize the images, and measure the performance.</p>
+            <div class="row center">
+              <a href="http://tonirib.github.io/frontend-nanodegree-mobile-portfolio/dist" class="modal-link">View Project</a>
+              <a href="http://github.com/ToniRib/frontend-nanodegree-mobile-portfolio/" class="modal-link">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer row">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Brewery Map Modal -->
+  <div class="modal fade" id="brewery-map-modal" tabindex="-1" role="dialog" aria-labelledby="brewery-map-modal-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="brewery-map-modal-label">Udacity Project 5: Brewery Map</h4>
+        </div>
+        <div class="modal-body row">
+          <div class="col-sm-4">
+            <img class="portfolio-image max-height" src="img/udacity-brewery-map.svg" alt="Girl in Cat Hat Image">
+          </div>
+          <div class="col-sm-8">
+            <p>This project was created entirely from scratch using KnockoutJS's Model-View-Controller architecture to dynamically display, search, and filter breweries I have been to in Denver, CO. It utilizes the Google Maps API & Yelp API to mark brewery locations and get Yelp ratings. Additionally, it uses jQuery's AJAX requests to retrieve the ratings from Yelp asynchonously.</p>
+            <div class="row center">
+              <a href="http://tonirib.github.io/neighborhood-map/dist" class="modal-link">View Project</a>
+              <a href="http://github.com/ToniRib/neighborhood-map/" class="modal-link">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer row">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- TDD Feedreader Modal -->
+  <div class="modal fade" id="feedreader-modal" tabindex="-1" role="dialog" aria-labelledby="feedreader-modal-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="feedreader-modal-label">Udacity Project 6: Test Driven Development Feedreader</h4>
+        </div>
+        <div class="modal-body row">
+          <div class="col-sm-4">
+            <img class="portfolio-image max-height" src="img/udacity-tdd-feedreader.svg" alt="Girl in Cat Hat Image">
+          </div>
+          <div class="col-sm-8">
+            <p>This project uses the test suite Jasmine to test the basic functionality of a feedreader app provided by Udacity. I wrote seven tests for the app including tests for the RSS feeds, the menu, initial entries, and new feed selections.</p>
+            <div class="row center">
+              <a href="http://tonirib.github.io/frontend-nanodegree-feedreader" class="modal-link">View Project</a>
+              <a href="http://github.com/ToniRib/frontend-nanodegree-feedreader/" class="modal-link">Github Repo</a>
             </div>
           </div>
         </div>

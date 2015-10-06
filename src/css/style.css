@@ -187,6 +187,15 @@ a:hover {
 
 .btn-default {
   margin-right: 15px;
+  box-shadow: none;
+  border-radius: 0;
+  background: black;
+  color: #ffea1d;
+  border: solid 3px #ffea1d;
+}
+
+.btn-default:focus {
+  outline: none;
 }
 
 .modal-link {
