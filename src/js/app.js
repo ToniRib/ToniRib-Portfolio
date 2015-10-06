@@ -22,13 +22,3 @@ $('.smooth-scroll-top').click(function() {
   }, 1000);
   return false;
 });
-
-// hover effect for portfolio boxes
-$('.box').on({
-  mouseenter: function() {
-    $('#' + $(this).attr('id') + '-text').show();
-  },
-  mouseleave: function() {
-    $('#' + $(this).attr('id') + '-text').hide();
-  }
-});

@@ -66,6 +66,8 @@ a {
   text-decoration: none;
   color: #76ff03;
   transition: color 0.4s ease;
+  cursor: pointer;
+  cursor: hand;
 }
 
 a:hover {
@@ -143,8 +145,7 @@ a:hover {
 .portfolio-text {
   font-size: 1.8em;
   color: white;
-  position: absolute;
-  margin-top: 100px;
+  position: relative;
   margin-left: 3%;
   text-align: center;
   display: block;
@@ -154,7 +155,7 @@ a:hover {
 
 .box {
   width: 250px;
-  height: 250px;
+  height: 300px;
   margin: 20px auto;
 }
 
@@ -192,10 +193,6 @@ a:hover {
   background: black;
   color: #ffea1d;
   border: solid 3px #ffea1d;
-}
-
-.btn-default:focus {
-  outline: none;
 }
 
 .modal-link {
@@ -249,6 +246,17 @@ a:hover {
 
   .portfolio-text {
     display: none;
+    position: absolute;
+    margin-top: 100px;
+  }
+
+  .box {
+    width: 250px;
+    height: 250px;
+  }
+
+  .box:hover .portfolio-text {
+    display: block;
   }
 
   li {
