@@ -181,6 +181,24 @@ a:hover {
   text-align: center;
 }
 
+/* Modals */
+.modal-list {
+  list-style-type: square;
+  text-align: left;
+}
+
+.modal-list-item {
+  color: white;
+}
+
+.btn-default {
+  margin-right: 15px;
+}
+
+.modal-link {
+  padding: 5%;
+}
+
 /* Media Queries */
 @media screen and (min-width: 400px) {
   li {
@@ -207,7 +225,7 @@ a:hover {
   }
 
   h2 {
-    font-size: 5em;
+    font-size: 4.5em;
   }
 
   nav {
