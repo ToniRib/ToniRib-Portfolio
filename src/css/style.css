@@ -152,16 +152,10 @@ a:hover {
   opacity: 0.7;
 }
 
-.github-links {
-  margin: 2% auto;
-  text-align: center;
-  font-size: 20px;
-}
-
 .box {
   width: 250px;
   height: 250px;
-  margin: auto;
+  margin: 20px auto;
 }
 
 /* Miscellaneous */
