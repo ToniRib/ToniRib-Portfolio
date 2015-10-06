@@ -102,7 +102,7 @@
 
         <!-- Udacity Project 2: jQuery Responsive Resume -->
         <div class="col-md-4 col-sm-4 col-xs-12">
-          <a href="http://tonirib.github.io/frontend-nanodegree-resume/">
+          <a data-toggle="modal" data-target="#jquery-resume-modal">
             <div class="box" id="jquery-resume">
               <span class="portfolio-text" id="jquery-resume-text">Udacity Project 2:<br>jQuery Resume</span>
               <img class="portfolio-image" src="img/udacity-jquery-resume.svg" alt="resume image">
@@ -189,7 +189,7 @@
 
   </div> <!-- End of container -->
 
-  <!-- Modal -->
+  <!-- Portfolio Modal -->
   <div class="modal fade" id="portfolio-modal" tabindex="-1" role="dialog" aria-labelledby="portfolio-modal-label">
     <div class="modal-dialog" role="document">
       <div class="modal-content">
@@ -198,13 +198,39 @@
         </div>
         <div class="modal-body row">
           <div class="col-sm-4">
-            <img class="portfolio-image" src="img/udacity-portfolio-site.svg" alt="TR key logo">
+            <img class="portfolio-image max-height" src="img/udacity-portfolio-site.svg" alt="TR key logo">
           </div>
           <div class="col-sm-8">
             <p>This project was an introduction to HTML and CSS, including using Bootstrap as responsive framework. It features a key logo I designed using Adobe Illustrator and some of my paintings.</p>
             <div class="row center">
               <a href="http://tonirib.github.io/Udacity-PortfolioSite" class="modal-link">View Project</a>
               <a href="http://github.com/tonirib/Udacity-PortfolioSite" class="modal-link">Github Repo</a>
+            </div>
+          </div>
+        </div>
+        <div class="modal-footer row">
+          <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- jQuery Resume Modal -->
+  <div class="modal fade" id="jquery-resume-modal" tabindex="-1" role="dialog" aria-labelledby="jquery-modal-label">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h4 class="modal-title" id="jquery-modal-label">Udacity Project 2: jQuery Resume</h4>
+        </div>
+        <div class="modal-body row">
+          <div class="col-sm-4">
+            <img class="portfolio-image max-height" src="img/udacity-jquery-resume.svg" alt="Resume Image">
+          </div>
+          <div class="col-sm-8">
+            <p>This project was an introduction to using jQuery to dynamically populate the DOM. Udacity provided the main code for the Google Maps feature and some initial helper code for adding jQuery elements. I added unique styles and layout using CSS3 and HTML5.</p>
+            <div class="row center">
+              <a href="http://tonirib.github.io/frontend-nanodegree-resume" class="modal-link">View Project</a>
+              <a href="http://github.com/ToniRib/frontend-nanodegree-resume/" class="modal-link">Github Repo</a>
             </div>
           </div>
         </div>

@@ -199,6 +199,10 @@ a:hover {
   padding: 5%;
 }
 
+.max-height {
+  max-height: 200px;
+}
+
 /* Media Queries */
 @media screen and (min-width: 400px) {
   li {
