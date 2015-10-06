@@ -1,0 +1,74 @@
+{
+  "name": "grunt-cache-bust",
+  "description": "Bust static assets from the cache using content hashing",
+  "version": "0.6.0",
+  "author": {
+    "name": "Ben Holland",
+    "email": "hi@benholland.me"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/hollandben/grunt-cache-bust.git"
+  },
+  "licenses": [
+    {
+      "type": "MIT",
+      "url": "https://github.com/hollandben/grunt-cache-bust/blob/master/LICENSE-MIT"
+    }
+  ],
+  "engines": {
+    "node": ">= 0.10.0"
+  },
+  "scripts": {
+    "test": "grunt test"
+  },
+  "devDependencies": {
+    "grunt-contrib-clean": "~0.6.0",
+    "grunt-contrib-copy": "~0.8.0",
+    "grunt-contrib-jshint": "~0.11.0",
+    "grunt-contrib-nodeunit": "~0.4.1",
+    "grunt-contrib-watch": "~0.6.1"
+  },
+  "peerDependencies": {
+    "grunt": "~0.4.5"
+  },
+  "dependencies": {
+    "cheerio": "~0.18.0",
+    "css": "~2.2.0",
+    "flatten": "~0.0.1",
+    "path-is-absolute": "^1.0.0"
+  },
+  "keywords": [
+    "grunt",
+    "grunt plugin",
+    "cache",
+    "bust",
+    "bust assets"
+  ],
+  "gitHead": "5a153711dd62b82de017a224504bc4517f383e23",
+  "bugs": {
+    "url": "https://github.com/hollandben/grunt-cache-bust/issues"
+  },
+  "homepage": "https://github.com/hollandben/grunt-cache-bust",
+  "_id": "grunt-cache-bust@0.6.0",
+  "_shasum": "43b8d84118d02c2ab499bde106ee5b0973ccbcdf",
+  "_from": "grunt-cache-bust@*",
+  "_npmVersion": "2.5.1",
+  "_nodeVersion": "0.10.38",
+  "_npmUser": {
+    "name": "hollandben",
+    "email": "hi@benholland.me"
+  },
+  "maintainers": [
+    {
+      "name": "hollandben",
+      "email": "benholland99@gmail.com"
+    }
+  ],
+  "dist": {
+    "shasum": "43b8d84118d02c2ab499bde106ee5b0973ccbcdf",
+    "tarball": "http://registry.npmjs.org/grunt-cache-bust/-/grunt-cache-bust-0.6.0.tgz"
+  },
+  "directories": {},
+  "_resolved": "https://registry.npmjs.org/grunt-cache-bust/-/grunt-cache-bust-0.6.0.tgz"
+}
