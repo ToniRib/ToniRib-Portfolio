@@ -9,9 +9,6 @@
   <link href="css/style.css" rel="stylesheet">
   <link href="css/bootstrap.css" rel="stylesheet">
 
-  <!-- Load the font -->
-  <link href="https://fonts.googleapis.com/css?family=Ubuntu:300" rel="stylesheet">
-
   <!-- Get the viewport of width of the device -->
   <meta name="viewport" content="width=device-width, initial-scale=1">
 
@@ -332,6 +329,20 @@
 
   <!-- Load javascript -->
   <script async src="js/production.min.c7a56dd69374f232.js"></script>
+
+  <!-- Asynchronously load the web font using webfontloader -->
+  <script>
+     WebFontConfig = {
+        google: {
+          families: ['Ubuntu:300']
+        }
+     };
+     (function(d) {
+        var wf = d.createElement('script'), s = d.scripts[0];
+        wf.src = 'https://ajax.googleapis.com/ajax/libs/webfont/1.5.18/webfont.js';
+        s.parentNode.insertBefore(wf, s);
+     })(document);
+  </script>
 
   <!-- Load the zocial icons and styles -->
   <link href="http://weloveiconfonts.com/api/?family=zocial" rel="stylesheet">
