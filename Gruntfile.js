@@ -22,6 +22,7 @@ module.exports = function(grunt) {
         }
       },
 
+      // create filenames for caching
       cacheBust: {
         options: {
           encoding: 'utf8',
