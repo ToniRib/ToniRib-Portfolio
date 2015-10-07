@@ -152,6 +152,10 @@ a:hover {
   background: #000;
 }
 
+.bump-right {
+  margin-left: 5%;
+}
+
 .box {
   width: 250px;
   height: 300px;
