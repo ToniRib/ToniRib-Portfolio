@@ -1,6 +1,3 @@
-/* TODO: Add media query for height changes at large screen,
-*  right now all the content is flowing together. */
-
 /* Zocial */
 .zocial-twitter:before,
 .zocial-github:before,
@@ -273,5 +270,12 @@ a:hover {
 
   ul {
     margin: 2em;
+  }
+}
+
+@media screen and (max-height: 769px) {
+  article,
+  header {
+    height: 100%;
   }
 }
