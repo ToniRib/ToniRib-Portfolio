@@ -22,21 +22,6 @@ module.exports = function(grunt) {
         }
       },
 
-      // create filenames for caching
-      cacheBust: {
-        options: {
-          encoding: 'utf8',
-          algorithm: 'md5',
-          length: 16,
-          deleteOriginals: false
-        },
-        assets: {
-          files: [{
-            src: ['dist/index.html']
-          }]
-        }
-      },
-
       // Put a watch on the javascript files so concat & uglify will run
       // if there are any changes made to them
       watch: {
@@ -55,9 +40,7 @@ module.exports = function(grunt) {
   grunt.loadNpmTasks('grunt-contrib-concat');
   grunt.loadNpmTasks('grunt-contrib-uglify');
   grunt.loadNpmTasks('grunt-contrib-watch');
-  grunt.loadNpmTasks('grunt-cache-bust');
 
   // Register the Grunt tasks
-  grunt.registerTask('default', ['concat', 'uglify', 'cacheBust']);
-
+  grunt.registerTask('default', ['concat', 'uglify']);
 };
