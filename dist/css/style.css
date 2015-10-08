@@ -92,6 +92,7 @@ a:hover {
 /* SVG Images */
 .main-img {
   margin: 1em;
+  width: 100%;
 }
 
 /* Arrow in Bio Section */
@@ -270,5 +271,12 @@ a:hover {
 
   ul {
     margin: 2em;
+  }
+}
+
+@media screen and (max-height: 769px) {
+  article,
+  header {
+    height: 100%;
   }
 }
