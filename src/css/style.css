@@ -1,3 +1,6 @@
+/* TODO: Add media query for height changes at large screen,
+*  right now all the content is flowing together. */
+
 /* Zocial */
 .zocial-twitter:before,
 .zocial-github:before,
