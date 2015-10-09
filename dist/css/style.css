@@ -98,6 +98,20 @@ a:hover {
   width: 100%;
 }
 
+/* PNG Image */
+.overflow-hidden {
+  overflow: hidden;
+}
+
+.png-img {
+  display: block;
+  margin: auto;
+}
+
+.max-height-185 {
+  max-height: 185px;
+}
+
 /* Arrow in Bio Section */
 .right-arrow {
   display: inline-block;
