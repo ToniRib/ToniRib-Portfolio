@@ -148,11 +148,21 @@
 
         <!-- Personal Project: Responsive Resume -->
         <div class="row">
-          <div class="col-md-12 col-sm-12 col-xs-12">
+          <div class="col-md-6 col-sm-6 col-xs-12">
             <a data-toggle="modal" data-target="#resume-modal">
               <div class="box" id="resume">
                 <span class="portfolio-text bump-right" id="resume-text">Responsive<br>Resume</span>
                 <img class="portfolio-image" src="img/responsive-resume.svg" alt="Star">
+              </div>
+            </a>
+          </div>
+
+          <!-- Personal Project: SHA-1 Algorithm -->
+          <div class="col-md-6 col-sm-6 col-xs-12">
+            <a data-toggle="modal" data-target="#sha1-modal">
+              <div class="box" id="sha1">
+                <span class="portfolio-text bump-right" id="sha1-text">SHA-1<br>Algorithm</span>
+                <img class="portfolio-image" src="img/sha1-algorithm.svg" alt="Pound Sign">
               </div>
             </a>
           </div>
@@ -355,6 +365,31 @@
               <div class="row center">
                 <a href="http://tonirib.github.io/online-responsive-resume" class="modal-link">View Project</a>
                 <a href="http://github.com/ToniRib/online-responsive-resume/" class="modal-link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer row">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- SHA-1 Modal -->
+    <div class="modal fade" id="sha1-modal" tabindex="-1" role="dialog" aria-labelledby="sha1-modal-label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="sha1-modal-label">Personal Project: SHA-1 Algorithm</h4>
+          </div>
+          <div class="modal-body row">
+            <div class="col-sm-4">
+              <img class="portfolio-image max-height" src="img/sha1-algorithm.svg" alt="Star">
+            </div>
+            <div class="col-sm-8">
+              <p>This project implements the SHA-1 hashing algorithm as described in the Federal Information Processing Standards Publication: Secure Hash Standard using an object-oriented approach in pure ruby.</p>
+              <div class="row center">
+                <a href="https://github.com/ToniRib/SHA-1" class="modal-link">Github Repo</a>
               </div>
             </div>
           </div>
