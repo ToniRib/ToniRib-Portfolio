@@ -172,6 +172,10 @@ a:hover {
   margin: 20px auto;
 }
 
+.portfolio-row {
+  margin-bottom: 20px;
+}
+
 /* Miscellaneous */
 .float-right {
   float: right;
@@ -259,7 +263,7 @@ a:hover {
 
   .box {
     width: 250px;
-    height: 250px;
+    height: 300px;
   }
 
   li {

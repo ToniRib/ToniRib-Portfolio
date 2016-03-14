@@ -83,15 +83,27 @@
       <article class="row">
         <h2 id="portfolio-title" class="right-title">portfolio</h2>
 
-        <div class="row">
+        <div class="row portfolio-row">
           <!-- Personal Project: runHacker -->
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <a data-toggle="modal" data-target="#runhacker-modal">
+              <div class="box" id="runhacker">
+                <div class="portfolio-text" id="runhacker-text">runHacker</div>
+                <img class="portfolio-image" src="img/run-hacker.svg" alt="Column Chart">
+              </div>
+            </a>
+          </div>
 
           <!-- Group Project: Freelancer -->
+          <div class="col-md-4 col-sm-4 col-xs-12 text-center">
+            <a data-toggle="modal" data-target="#freelancer-modal">
+              <div class="box" id="freelancer">
+                <div class="portfolio-text" id="freelancer-text">Freelancer</div>
+                <img class="portfolio-image" src="img/freelancer.svg" alt="Pound Sign">
+              </div>
+            </a>
+          </div>
 
-          <!-- Group Project: Rough Sketch -->
-        </div>
-
-        <div class="row">
           <!-- Personal Project: SHA-1 Algorithm -->
           <div class="col-md-4 col-sm-4 col-xs-12 text-center">
             <a data-toggle="modal" data-target="#sha1-modal">
@@ -101,7 +113,9 @@
               </div>
             </a>
           </div>
+        </div>
 
+        <div class="row portfolio-row">
           <!-- Udacity Project 5: Neighborhood Map -->
           <div class="col-md-4 col-sm-4 col-xs-12">
             <a data-toggle="modal" data-target="#brewery-map-modal">
@@ -148,13 +162,65 @@
 
     </div> <!-- End of container -->
 
+    <!-- Freelancer Modal -->
+    <div class="modal fade" id="freelancer-modal" tabindex="-1" role="dialog" aria-labelledby="freelancer-modal-label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="freelancer-modal-label">Turing School: Freelancer</h4>
+          </div>
+          <div class="modal-body row">
+            <div class="col-sm-4">
+              <img class="portfolio-image max-height" src="img/freelancer.svg" alt="wrench">
+            </div>
+            <div class="col-sm-8">
+              <p>This group project took a previous project for an art marketplace and turned it into a job bidding site. Job listers can sign up to post jobs they want completed and contractors can sign up to bid on the jobs. I personallh implemented the bidding workflow, feedback workflow, and the layouts/styling (including mobile).</p>
+              <div class="row center">
+                <a href="http://freelancer-for-you.herokuapp.com" class="modal-link">View Project</a>
+                <a href="http://github.com/jwperry/the_pivot/" class="modal-link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer row">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- runHacker Modal -->
+    <div class="modal fade" id="runhacker-modal" tabindex="-1" role="dialog" aria-labelledby="runhacker-modal-label">
+      <div class="modal-dialog" role="document">
+        <div class="modal-content">
+          <div class="modal-header">
+            <h4 class="modal-title" id="runhacker-modal-label">Turing School: runHacker</h4>
+          </div>
+          <div class="modal-body row">
+            <div class="col-sm-4">
+              <img class="portfolio-image max-height" src="img/run-hacker.svg" alt="Column Chart">
+            </div>
+            <div class="col-sm-8">
+              <p>This personal project uses OAuth 2.0 to connect to a user's MapMyFitness account. The application focuses on creating custom charts for user's to identify trends in their running. It utilizes the the following APIs: MapMyFitness, WeatherSource, Google Maps, Google Elevation, Google Timezone, and Google Geocoder. It also uses background workers set up with Redis/Sidekiq to import user data without making the user wait to be redirected to their dashboard.</p>
+              <div class="row center">
+                <a href="http://run-hacker.herokuapp.com" class="modal-link">View Project</a>
+                <a href="http://github.com/ToniRib/run_hacker/" class="modal-link">Github Repo</a>
+              </div>
+            </div>
+          </div>
+          <div class="modal-footer row">
+            <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+          </div>
+        </div>
+      </div>
+    </div>
+
 
     <!-- Arcade Game Modal -->
     <div class="modal fade" id="arcade-game-modal" tabindex="-1" role="dialog" aria-labelledby="arcade-modal-label">
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="arcade-modal-label">Udacity Project 3: Arcade Game</h4>
+            <h4 class="modal-title" id="arcade-modal-label">Udacity: Arcade Game</h4>
           </div>
           <div class="modal-body row">
             <div class="col-sm-4">
@@ -180,7 +246,7 @@
       <div class="modal-dialog" role="document">
         <div class="modal-content">
           <div class="modal-header">
-            <h4 class="modal-title" id="brewery-map-modal-label">Udacity Project 5: Brewery Map</h4>
+            <h4 class="modal-title" id="brewery-map-modal-label">Udacity: Brewery Map</h4>
           </div>
           <div class="modal-body row">
             <div class="col-sm-4">
